@@ -1,0 +1,67 @@
+.btn{
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    background: #eaeaea;
+    color: #3c4955;
+    border-color: #eaeaea;
+} 
+
+.btn--small{
+    padding: 5px 15px;
+    font-size: 1.6rem;
+    text-transform: none;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active{
+    background: #48bf72;
+    color: #48bf72;
+    color:#fff;
+}
+.btn--transparent{
+    background: transparent;
+}
+.btn--green{
+    color: #48bf72;
+    border-color: #48bf72;
+}
+
+.btn--gray{
+    color: #3c4955;
+    border-color: #3c4955;
+}
+.btn--green.btn--transparent:hover,
+.btn--green.btn--transparent:focus,
+.btn--green.btn--transparent:active {
+    background-color: #48bf72;
+    color: #fff;
+}
+
+.btn--gray.btn--transparent:hover,
+.btn--gray.btn--transparent:focus,
+.btn--gray.btn--transparent:active {
+    background-color: #3c4955;
+    color: #fff;
+}
+.btn--fullwidth{
+    width: 100%;
+}
+.btn--filled-green{
+    background-color: #48bf72;
+    color: #fff;
+    border-color: #48bf72;
+}
+.btn--filled-green:hover,
+.btn--filled-green:focus,
+.btn--filled-green:active {
+    background-color: transparent;
+    color: #48bf72;
+    border-color: #48bf72;
+}

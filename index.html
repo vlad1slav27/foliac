@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Foliac</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<link rel="stylesheet" type="text/css" href="css/buttons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" href="img/f.png">
+</head>
+<body>
+	<header class="header">
+		<div class="container clearfix">
+			<img class="header__logo" src="img/foliac-logo.png" alt="Foliac">
+			<nav class="header__nav">
+				<ul>
+					<li><a href="#Accueil">Accueil</a></li>
+					<li><a href="#Portfolio">Portfolio</a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="Accueil" class="section section--bg section--100" style="background-image: linear-gradient(to right, rgba(60, 73, 85, 0.6), rgba(60, 73, 85, 0.6)), url('img/computer.jpg');">
+			<div class="container">
+				<div class="flex stext-center">
+					<h1 class="title">voici votre prochain portfolio</h1>
+					<h2 class="subtitle">un template psd simple et gratuit  </h2>
+					<a href="#" class="btn btn--transparent btn--green">mes travaux</a>
+				</div>
+			</div>
+		</section>
+		<section id="Portfolio" class="section">
+			<div class="container">
+				<ul class="filters text-center">
+					<li><a class="btn btn--small active" href="#">Tous les projets</a></li>
+					<li><a class="btn btn--small" href="#">Webdesign</a></li>
+					<li><a class="btn btn--small" href="#">UI/UX design</a></li>
+					<li><a class="btn btn--small" href="#">Illustration</a></li>
+					<li><a class="btn btn--small" href="#">Motion design</a></li>
+				</ul>
+				<div class="items">
+					<div class="item">
+						<img class="item__img" src="img/multiple_items.jpg" alt="">
+						<a class="item__overlay" href="#">
+							<div class="item__info">
+								<div class="item__title">Forest app</div>
+								<div class="item__text">application mobile</div>
+							</div>
+						</a>
+					</div>
+					<div class="item item--wide">
+						<img class="item__img" src="img/prototype.jpg" alt="">
+						<a class="item__overlay" href="#">
+							<div class="item__info">
+								<div class="item__title">Forest app</div>
+								<div class="item__text">application mobile</div>
+							</div>
+						</a>
+					</div>
+					<div class="item item--wide item--tall">
+						<img class="item__img" src="img/visuelle.jpg" alt="">
+						<a class="item__overlay" href="#">
+							<div class="item__info">
+								<div class="item__title">Forest app</div>
+								<div class="item__text">application mobile</div>
+							</div>
+						</a>
+					</div>
+					<div class="item item--tall">
+						<img class="item__img" src="img/app.jpg" alt="">
+						<a class="item__overlay" href="#">
+							<div class="item__info">
+								<div class="item__title">Forest app</div>
+								<div class="item__text">application mobile</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="About" class="section section--bg" style="background-image: linear-gradient(to right, rgba(60, 73, 85, 0.6), rgba(60, 73, 85, 0.6)), url('img/men-computer.jpg');">
+			<div class="container">
+				<article class="about">
+					<h2 class="about__title">Michel Dupont</h2>
+					<span class="about__subtitle">Webdesigner, illustrateur, auteur</span>
+					<div class="about__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus quae qui, reiciendis, corrupti quo iusto consectetur? Magni, placeat nemo suscipit nobis quam quaerat fugiat veritatis dolorem nulla autem quasi accusamus enim voluptates commodi ipsum nesciunt minus cupiditate quis incidunt eius sit magnam, labore. Quisquam ex amet officia rerum sit.
+					</div>
+					<a href="#" class="btn btn--gray btn--transparent">me contacter</a>
+				</article>
+			</div>
+		</section>
+		<section id="Contact" class="section">
+			<div class="container">
+				<h2 class="title text-center title title--green">Me contacter</h2>
+				<form action="" method="POST" class="form">
+					<div class="row">
+						<input class="form__input row__item" type="text" name="name" placeholder="Votre nom" required="">
+						<input class="form__input row__item" type="email" name="email" placeholder="Votre email" required="">
+					</div>
+					<textarea class="form__input" name="massage" placeholder="Votre massage"></textarea>
+					<button class="btn btn--filled-green btn--fullwidth">envoyer</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="row__item">
+					<span class="footer__copyright">Copyright © 2015 by beneggen <a href="http://www.beneggen.fr" target="blank">www.beneggen.frs</a>
+					</span>
+				</div>
+				<div class="row__item">
+					<ul class="socials text-right">
+						<li class="socials__item"><a href="#" class="socials__link" data-social='tw'></a></li>
+						<li class="socials__item"><a href="#" class="socials__link" data-social='in'></a></li>
+						<li class="socials__item"><a href="#" class="socials__link" data-social='dr'></a></li>
+						<li class="socials__item"><a href="#" class="socials__link" data-social='be'></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div>
+	</footer>
+</body>
+</html>
